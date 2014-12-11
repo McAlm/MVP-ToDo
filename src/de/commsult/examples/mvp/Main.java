@@ -1,5 +1,6 @@
 package de.commsult.examples.mvp;
 
+import de.commsult.examples.mvp.model.TodoModel;
 import de.commsult.examples.mvp.model.impl.TodoModelImpl;
 import de.commsult.examples.mvp.presenter.impl.TodoEditPresenterImpl;
 import de.commsult.examples.mvp.presenter.impl.TodoPresenter;
@@ -34,7 +35,7 @@ public class Main {
             }
         });
 
-        TodoModelImpl model = new TodoModelImpl();
+        TodoModel model = new TodoModelImpl();
         TodoPresenter toDoPresenter = new TodoPresenter(model, content, new TodoEditPresenterImpl(model, new TodoEditViewImpl(shell)));
         toDoPresenter.init();
 
