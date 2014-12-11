@@ -1,4 +1,4 @@
 MVP-ToDo
 ========
 
-Example project to demonstrate MVP pattern
+Example project to demonstrate the MVP pattern
