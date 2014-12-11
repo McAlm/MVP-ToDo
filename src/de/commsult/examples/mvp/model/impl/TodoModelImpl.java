@@ -20,7 +20,7 @@ public class TodoModelImpl implements TodoModel {
         Todo td4 = new Todo("td4", "desc4", new Date());
         Todo td5 = new Todo("td5", "desc5", new Date());
 
-        todos = new ArrayList(Arrays.asList(new Todo[] { td1, td2, td3, td4, td5 }));
+        todos = new ArrayList<Todo>(Arrays.asList(new Todo[] { td1, td2, td3, td4, td5 }));
 
     }
 
